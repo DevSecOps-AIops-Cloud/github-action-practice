@@ -9,7 +9,7 @@ jobs:
       - name: code 
         run: echo "code"
   build:
-  needs: [code]
+    needs: [code]
     runs-on: ubuntu-latest
     steps:
       - name: build
